@@ -270,8 +270,7 @@ if ($imgResult) {
     </div>
     <script>
         document.addEventListener('DOMContentLoaded', function () {
-            // const qrLink = 'http://localhost/menu/Views/menuC/View/index.php?id=<?php echo $id; ?>';
-            const qrLink = 'http://192.168.1.13/menu1/Views/menuC/View/index.php?id=<?php echo $id; ?>';
+            const qrLink = 'http://localhost/QuickChoice/Views/menuC/View/index.php?id=<?php echo $id; ?>';
             const qrcodeContainer = document.getElementById('qrcode');
             const qrLinkInput = document.getElementById('qr-link');
             const copyLinkBtn = document.getElementById('copy-link-btn');
