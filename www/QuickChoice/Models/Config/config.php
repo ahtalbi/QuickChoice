@@ -2,7 +2,7 @@
 
 session_start();
 
-$conn = new mysqli("localhost", "root", "", "restaurant-menu");
+$conn = new mysqli("localhost", "root", "", "appdb");
 
 if ($conn->connect_error) {
     die("Connection failed: ". $conn->connect_error);
